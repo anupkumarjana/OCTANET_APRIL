@@ -1,0 +1,97 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Poppins;
+}
+header {
+  width: 100%;
+  /* border-bottom: 1px solid rgb(218, 218, 218); */
+  /* background-color: #ffbf00; */
+  position: fixed;
+  z-index: 10;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 150px;
+}
+.logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.logo span {
+  font-size: 30px;
+}
+.logo img {
+  width: 50px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: brown;
+}
+/* -------------------hero section-------------------------------- */
+main {
+  /* background-color: #fdda0d; */
+  /* padding-top: 100px; */
+  /* padding-right: 4rem; */
+  padding-left: 10rem;
+  color: black;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  float: left;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+.hero-left-buttons {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.hero-left-buttons button {
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.contact-us-btn {
+  background-color: rgb(4, 67, 4);
+  color: white;
+}
+.hero-right img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: auto;
+  padding-top: 100px;
+  /* filter: drop-shadow(rgb(81, 78, 78) 1rem 1rem 10px); */
+}
